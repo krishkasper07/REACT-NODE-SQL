@@ -1,0 +1,67 @@
+.reviewCard{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   max-height: 60vh;
+   max-width: 80vw;
+   min-width: 30vw;
+   min-height: 40vh;
+   flex-direction: column;
+   margin-top: 10px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   position: relative;
+}
+
+.movieName{
+    font-size: 50px;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    border-bottom: 3px solid red;
+}
+
+.movieReview{
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid red;
+}
+
+.deletebtn{
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    border: none;
+    outline: none;
+    background: rgb(216, 35, 35);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.updatebtn{
+    position: absolute;
+    bottom:30px;
+    right: 35px;
+    border: none;
+    outline: none;
+    background: rgb(23, 204, 150);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.updateInput{
+    position: absolute;
+    bottom: 20px;
+    width: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: 2px solid blue;
+}

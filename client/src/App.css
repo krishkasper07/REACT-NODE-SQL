@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form>input{
+  width: 600px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.form>button{
+  width:100px;
+  padding: 10px;
+  background:green;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.movieLabel{
+  margin-right: 77%;
+  text-transform: uppercase;
+  font-weight: bolder;
+ }
+
+.reviewLabel{
+  margin-right: 85%;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+ 
